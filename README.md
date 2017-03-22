@@ -47,7 +47,7 @@ For more details, checkout our [technical](http://cybellum.com/doubleagentzero-d
    e.g.    DoubleAgent.exe install cmd.exe
    ```
    Note that the 32bit installer (DoubleAgent_x86.exe) can be used both on Windows x86 and Windows x64.
-   But the 64bit installer (DoubleAgent_x64.exe) can be used only on Windows x86.
+   But the 64bit installer (DoubleAgent_x64.exe) can be used only on Windows x64.
 5. The next time the target process loads [DoubleAgentDll.dll](https://github.com/Cybellum/DoubleAgent/tree/master/DoubleAgentDll) would be injected into it.
 
 ## Authors
