@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoubleAgent", "DoubleAgent\DoubleAgent.vcxproj", "{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0358B01A-8542-482B-87C0-F141655BD802} = {0358B01A-8542-482B-87C0-F141655BD802}
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5} = {532786D5-D713-455E-AE4A-2E68BF7DFFD5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoubleAgentDll", "DoubleAgentDll\DoubleAgentDll.vcxproj", "{0358B01A-8542-482B-87C0-F141655BD802}"
+	ProjectSection(ProjectDependencies) = postProject
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5} = {532786D5-D713-455E-AE4A-2E68BF7DFFD5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoubleAgentShared", "DoubleAgentShared\DoubleAgentShared.vcxproj", "{532786D5-D713-455E-AE4A-2E68BF7DFFD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Debug|x64.ActiveCfg = Debug|x64
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Debug|x64.Build.0 = Debug|x64
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Debug|x86.Build.0 = Debug|Win32
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Release|x64.ActiveCfg = Release|x64
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Release|x64.Build.0 = Release|x64
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Release|x86.ActiveCfg = Release|Win32
+		{37D9ADC4-76B6-49EE-A4F9-A02A581B55C4}.Release|x86.Build.0 = Release|Win32
+		{0358B01A-8542-482B-87C0-F141655BD802}.Debug|x64.ActiveCfg = Debug|x64
+		{0358B01A-8542-482B-87C0-F141655BD802}.Debug|x64.Build.0 = Debug|x64
+		{0358B01A-8542-482B-87C0-F141655BD802}.Debug|x86.ActiveCfg = Debug|Win32
+		{0358B01A-8542-482B-87C0-F141655BD802}.Debug|x86.Build.0 = Debug|Win32
+		{0358B01A-8542-482B-87C0-F141655BD802}.Release|x64.ActiveCfg = Release|x64
+		{0358B01A-8542-482B-87C0-F141655BD802}.Release|x64.Build.0 = Release|x64
+		{0358B01A-8542-482B-87C0-F141655BD802}.Release|x86.ActiveCfg = Release|Win32
+		{0358B01A-8542-482B-87C0-F141655BD802}.Release|x86.Build.0 = Release|Win32
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Debug|x64.ActiveCfg = Debug|x64
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Debug|x64.Build.0 = Debug|x64
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Debug|x86.ActiveCfg = Debug|Win32
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Debug|x86.Build.0 = Debug|Win32
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Release|x64.ActiveCfg = Release|x64
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Release|x64.Build.0 = Release|x64
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Release|x86.ActiveCfg = Release|Win32
+		{532786D5-D713-455E-AE4A-2E68BF7DFFD5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
