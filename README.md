@@ -8,7 +8,7 @@ DoubleAgent can exploit:
 * Every Windows user (SYSTEM/Admin/etc.)
 * Every target process, including privileged processes (OS/Antivirus/etc.)
 
-DoubleAgent exploits a 15 years old undocumented legitimate feature of Windows and therefore cannot be patched.
+DoubleAgent exploits a 15 years old legitimate feature of Windows and therefore cannot be patched.
 
 ## Code Injection
 
