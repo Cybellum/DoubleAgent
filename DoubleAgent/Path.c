@@ -71,7 +71,7 @@ DOUBLEAGENT_STATUS PATH_Combine(IN PCWSTR pcwszPath1, IN PCWSTR pcwszPath2, OUT 
 	}
 
 	/* Allocates the combined path */
-	pwszCombinedLocal = HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, MAX_PATH);
+	pwszCombinedLocal = HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, MAX_PATH * sizeof(*pwszCombinedLocal));
 	if (NULL == pwszCombinedLocal)
 	{
 		DOUBLEAGENT_SET(eStatus, DOUBLEAGENT_STATUS_DOUBLEAGENT_PATH_COMBINE_HEAPALLOC_FAILED);

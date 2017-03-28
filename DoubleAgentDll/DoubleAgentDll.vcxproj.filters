@@ -15,6 +15,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{c59faa4b-63c3-4193-9387-f639ffe77113}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -26,6 +29,9 @@
     <ClCompile Include="Process.c">
       <Filter>Source Files\Process</Filter>
     </ClCompile>
+    <ClCompile Include="Memory.c">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VerifierDll.h">
@@ -33,6 +39,9 @@
     </ClInclude>
     <ClInclude Include="Process.h">
       <Filter>Source Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\Memory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
